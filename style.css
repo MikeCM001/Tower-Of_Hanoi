@@ -1,0 +1,140 @@
+html {
+    font-family: sans-serif;
+  }
+  
+body{
+  background-color: rgb(27, 19, 19);
+}
+
+  #bg-contenedor {
+    text-align: center;
+  }
+  
+  #CajaDeTorres {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .ContenedorTorre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .torre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius: 1vmax;
+    width: 1vmax;
+    height: 24vmax;
+    background: linear-gradient(to right, 
+    #fda31b 0%, #F0B27A  18%, #c3691b 18%, #F0B27A  19.5%, #E67E22 20%, #E67E22 20%,
+    #fda31b 49%, #fda31b 49%, #cd6e1b 50.3%, #db7115 51%, #F0B27A 51%,
+    #fda31b 80%, #fda31b 80%, #d7870e 81.1%, #E67E22 82%, #b27315 82%, #F0B27A 100%);
+    bottom: 0;
+    margin: 10px;
+    padding: 9px;
+  }
+  
+  header{
+    text-align: center;
+    background-color: papayawhip;
+  }
+  .discos {
+    height: 4.3vmax;
+    border-radius: 50px;
+  }
+  
+  #disco1 {
+    background: radial-gradient(ellipse at 75% 30%, #0085f2 0%,#005ad9 20%,#0030aa 51%,#004d9b 100%);
+    width: 18vmax;
+  }
+  
+  #disco2 {
+    background: radial-gradient(ellipse at 75% 35%, #bfd295 0%,#8e992a 20%,#425a00 71%,#2e3b1d 100%);
+    width: 15vmax;
+  }
+  
+  #disco3 {
+    background: radial-gradient(ellipse at 75% 30%, #d2c255 0%,#b9a92a 20%,#8a5a00 51%,#7b6b1d 100%);
+    width: 12.4vmax;
+  }
+  
+  #disco4 {
+    background: radial-gradient(ellipse at 75% 30%, #D7BDE2 0%,#8E44AD 20%, 51%,#A569BD 100%);
+    width: 10vmax;
+  }
+
+  #disco5 {
+    background: radial-gradient(ellipse at 75% 30%, #ebf4b6 0%,#F0B27A 20%,#F8C471 51%,#F5B041  100%);
+    width: 6.85vmax;
+  }
+  
+  
+  #CajaMovimien{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  }
+  
+  #movimientos {
+    margin: 8px auto;
+    margin-right: 100px;
+    padding: 10px;
+    border: 1px solid rgb(255, 3, 3);
+    border-radius: 5px;
+    width: 20px;
+  }
+
+  .base{
+  position: relative;
+  z-index: 10;
+  width: 74vmax;
+  height: 4.5vmax;
+  margin-left: 13vmax;
+  margin-top: -30px;
+  border-radius: 6px;
+  background: linear-gradient(to top, 
+    #6d4100 0%, #d67c2e  18%, #6d4100 18%, #db7a24  19.5%, #E67E22 20%, #E67E22 20%,
+    #6d4100 49%, #6d4100 49%, #6d4100 50.3%, #E67E22 51%, #bc6f2b 51%,
+    #b27315 80%, #E67E22 80%, #b27315 81.1%, #E67E22 82%, #db8709 82%, #f38d35 100%);
+    bottom: 0;
+ 
+  }
+
+/*EFEECTO DE LOS ENLACES A DESCARGAR*/
+a{
+    background-color: aqua
+}
+.aa1{
+  text-decoration: none;
+   color: orange;
+   border: solid 3px black;
+   border-radius: 5vmax;
+}
+.aa2{
+  text-decoration: none;
+    color: blue;
+    border: solid 3px black;
+    border-radius: 5vmax;
+}
+.aa3{
+  text-decoration: none;
+    color: green;
+    border: solid 3px black;
+    border-radius: 5vmax;
+}
+
+.aa:hover{
+    background-color: red;
+    cursor:pointer;
+}
+
+#alerta{
+  color: rgb(254, 254, 254);
+  font-size: large;
+  font-style: italic;
+}
