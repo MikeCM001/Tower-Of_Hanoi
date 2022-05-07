@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORRE DE HANOI</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/6984/6984774.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+      <img src="https://www.ues.edu.sv/storage/app/uploads/public/5db/8b2/922/5db8b292249e3987748465.png" alt="logo-ues" id="logoues">
+        <h1>TORRE DE HANOI</h1>
+        <select name="" id="modos">
+          <option value="1">MODO NORMAL</option>
+          <option value="2">MODO MAESTRO</option>
+        </select>
+    </header>
+
+    <div id="CajaMovimien">
+
+      <div id="mensajes">
+        <p id="alerta"></p>
+      </div>
+      <div id="temporizador">
+        TIEMPO RESTANTE: <span id="timer">INFINITO<span>
+    </div>
+      <div id="movimientos">
+        0
+      </div>
+    </div>
+    <div id="bg-contenedor">
+        <div id="CajaDeTorres">
+          <div class="ContenedorTorre">
+            <div class="torre" id="torre1">
+              <div class="discos" id="disco1"></div>
+              <div class="discos" id="disco2"></div>
+              <div class="discos" id="disco3"></div>
+              <div class="discos" id="disco4"></div>
+              <div class="discos" id="disco5"></div>
+              
+            </div>
+          </div>
+
+          <div class="ContenedorTorre">
+            <div class="torre" id="torre2">
+            </div>
+          </div>
+  
+          <div class="ContenedorTorre">
+            <div class="torre" id="torre3">
+            </div>
+          </div>
+        </div>
+
+        <div class="base"></div>
+
+      </div>
+      <footer>
+        <h3>CREADORES:</h3>
+        <p>BRAYAN G. VILLALOBOS</p>
+        <p>MIKE C. MARTINEZ</p>
+        <a href="index.html" download="index" class="aa1 aa"> DESCARGAR HTML</a> 
+        <a href="style.css" download="style" class="aa2 aa">DESCARGAR CSS</a>
+        <a href="script.js" download="script" class="aa3 aa">DESCARGAR JS</a>
+      </footer>
+</body>
+</html>
